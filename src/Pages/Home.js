@@ -7,7 +7,7 @@ function Home() {
   return (
     <main id="home" className=" px-10:px-20 lg:px-40">
       <section className="min-h-screen mt-5">
-        <h1 className="text-xl">Welcome, Mareike</h1>
+        <h1 className="text-xl">Welcome Mareike!</h1>
         <p className="text-xl mt-3"> What do you want to study today?</p>
 
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-nowrap">
@@ -25,9 +25,6 @@ function Home() {
               <p className="font-medium text-sm pb-2">Add more</p>
             </h1>
           </div>
-        </div>
-        <div className=" flex justify-end">
-          <HiSparkles className="text-amber-400 text-5xl" />
         </div>
       </section>
     </main>

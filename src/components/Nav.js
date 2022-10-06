@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className="py-5 flex justify-between">
       <h1 className="leading-none text-amber-400 flex mx-1">
         <BiCoffeeTogo className="mx-1" />
-        <Link className="mx-1 text-slate-300" to="/">
+        <Link className="mx-1 text-gray-50" to="/">
           mbot study cafe
         </Link>
       </h1>
@@ -20,7 +20,7 @@ const Nav = () => {
 
         <li>
           {" "}
-          <CgMenuCake className="cursor-pointer text-slate-300 text-xl mx-5" />
+          <CgMenuCake className="cursor-pointer text-gray-50 text-xl mx-5" />
         </li>
       </ul>
     </nav>

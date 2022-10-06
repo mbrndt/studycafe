@@ -28,8 +28,3 @@ nav {
 nav icon {
   color: var(--color-secondary);
 }
-
-html,
-body {
-  height: 100;
-}
