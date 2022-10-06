@@ -17,16 +17,16 @@
   font-family: "Kiwi Maru", serif;
 }
 
+body {
+  background-color: var(--color-bg);
+}
+
 nav {
   background-color: var(--color-primary);
 }
 
 nav icon {
   color: var(--color-secondary);
-}
-
-#home {
-  background-color: var(--color-bg);
 }
 
 html,

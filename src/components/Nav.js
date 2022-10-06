@@ -10,7 +10,7 @@ const Nav = () => {
       <h1 className="leading-none text-amber-400 flex mx-1">
         <BiCoffeeTogo className="mx-1" />
         <Link className="mx-1 text-slate-300" to="/">
-          marebot study cafe
+          mbot study cafe
         </Link>
       </h1>
       <ul className="flex items-center text-amber-400">
