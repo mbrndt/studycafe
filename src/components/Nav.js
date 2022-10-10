@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BiCoffeeTogo } from "react-icons/bi";
 import { CgMenuCake } from "react-icons/cg";
@@ -18,10 +19,18 @@ const Nav = () => {
           <BsFillMoonStarsFill className="cursor-pointer mr-1" />
         </li>
 
-        <li>
+        <Menu />
+
+        {/* <li className="menu">
           {" "}
           <CgMenuCake className="cursor-pointer text-gray-50 text-xl mx-5" />
-        </li>
+          <Link id="links" className="text-gray-50" to="/about">
+            About us
+          </Link>
+          <Link id="links" className="text-gray-50" to="/contact">
+            contact
+          </Link>
+        </li> */}
       </ul>
     </nav>
   );
